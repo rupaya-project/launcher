@@ -1,0 +1,15 @@
+log.txt
+.pwd
+.env
+.rlp
+.ldb
+.log
+LOCK
+nodekey
+.bak
+CURRENT
+log
+MANISFEST-*
+/networks
+mainnet.env
+config/chain/mainnet/.main.json.swp
