@@ -4,7 +4,7 @@ WORK_DIR=$(pwd)
 
 # declare our system commands
 CMD_GO='go'
-CMD_TOMOCHAIN='$HOME/rupaya/build/bin/rupaya'
+CMD_TOMOCHAIN='$HOME/rupx/build/bin/rupaya'
 
 ### Internal installation scripts to be used by calling install_generic ###
 
@@ -28,10 +28,10 @@ internal_install_go() {
 internal_install_rupaya() {
   cd $HOME
   git clone 'https://github.com/rupaya-project/rupx'
-  cd $HOME/rupaya && make all
-  sudo cp $HOME/rupaya/build/bin/rupaya /usr/local/bin
-  sudo cp $HOME/rupaya/build/bin/bootnode /usr/local/bin
-  sudo cp $HOME/rupaya/build/bin/puppeth /usr/local/bin
+  cd $HOME/rupx && make all
+  sudo cp $HOME/rupx/build/bin/rupaya /usr/local/bin
+  sudo cp $HOME/rupx/build/bin/bootnode /usr/local/bin
+  sudo cp $HOME/rupx/build/bin/puppeth /usr/local/bin
   echo rupaya has been installed
   cd $WORK_DIR
 }
