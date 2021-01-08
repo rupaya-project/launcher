@@ -24,7 +24,7 @@ On a vanilla linux vps please run this command
 
 Depending on your security level in your shell, the root password can be asked during the installation script to execute `sudo` commands during installation.
 
-`git clone https://github.com/rupayaproject/Apollo`
+`git clone https://github.com/rupaya-project/launcher`
 
 If you don't have Golang and/or rupaya installed yet, run our installation script:
 `cd Apollo`
