@@ -86,7 +86,7 @@ There you must click the `login`button. If you use metamask, you need to connect
 
 ```
 RPC URL: https://rpc.rupx.io
-Chain ID: 77
+Chain ID: 499
 Symbol RUPX
 Nickname RUPAYA
 ```
