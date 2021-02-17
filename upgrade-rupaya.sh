@@ -26,9 +26,9 @@ sudo rm  /usr/local/bin/rupaya
 sudo rm  /usr/local/bin/bootnode
 sudo rm  /usr/local/bin/puppeth
 
-sudo cp $HOME/rupaya/build/bin/rupaya /usr/local/bin
-sudo cp $HOME/rupaya/build/bin/bootnode /usr/local/bin
-sudo cp $HOME/rupaya/build/bin/puppeth /usr/local/bin
+sudo cp $HOME/rupx/build/bin/rupaya /usr/local/bin
+sudo cp $HOME/rupx/build/bin/bootnode /usr/local/bin
+sudo cp $HOME/rupx/build/bin/puppeth /usr/local/bin
 
 cd $WORK_DIR
 
