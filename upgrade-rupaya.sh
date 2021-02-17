@@ -20,7 +20,7 @@ echo installed version is $CURRENT
 source ~/.profile
 
 cd $HOME
-cd $HOME/rupaya && git checkout master && git pull && make all
+cd $HOME/rupx && git checkout master && git pull && make all
 
 sudo rm  /usr/local/bin/rupaya
 sudo rm  /usr/local/bin/bootnode
